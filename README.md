@@ -36,7 +36,7 @@ Ensure you have [Node.js](https://nodejs.org/) (v16.x or higher) installed on yo
 
 ### 2. Clone & Navigate
 ```bash
-git clone [https://github.com/yourusername/pulseneon.git](https://github.com/yourusername/pulseneon.git)
+git clone https://github.com/rishabhks651-byte/pulse_neon.git
 cd pulseneon
 ```
 
