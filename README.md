@@ -1,4 +1,4 @@
-# ⚡ PulseNeon
+# ⚡ PulseNeon // Cybernetic Uptime Architecture
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-00f0ff.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Engine: Node.js](https://img.shields.io/badge/Engine-Node.js-39ff14.svg?style=flat-square)](https://nodejs.org/)
@@ -10,29 +10,45 @@ PulseNeon is an ultra-sleek, lightweight website uptime monitor wrapped in a cyb
 
 ## 🚀 Features
 
-* 🛸 **High-Contrast Neon Aesthetics:** Designed with custom styling, custom high-tech fonts, and cyber grid visuals.
-* ⚡ **Ultra-Lightweight Stack:** Only 5 base files, built entirely on standard Vanilla JS, clean CSS, and a Node.js microservice.
-* 🔄 **Real-Time Polling & Checks:** Active background runners query your selected targets asynchronously every 15 seconds.
+* 🛸 **High-Contrast Neon Aesthetics:** Built with custom neon styling, high-tech Google fonts, and cyber grid visuals.
+* ⚡ **Ultra-Lightweight Stack:** Exactly 5 core files, built entirely on standard Vanilla JS, clean CSS, and a Node.js microservice.
+* 🔄 **Real-Time Polling:** Active background runners query your selected targets asynchronously every 15 seconds.
 * 🛠️ **Seamless Mutations:** Easily register or permanently purge active channels with instant state renders.
 
 ---
 
-## 📦 Tech Stack
+## 📦 Tech Stack & Dependencies
 
-| Component | Technology | Description |
+Because this is a **Node.js** application, dependencies are managed via `package.json` (the Node equivalent of a Python `requirements.txt`). 
+
+| Package | Version | Purpose |
 | :--- | :--- | :--- |
-| **Backend** | Node.js / Express | Highly responsive REST API & Static File Router |
-| **Http Client** | Axios | Fast execution requests with native timeout handling |
-| **Frontend** | Vanilla JS ES6 | Reactive DOM bindings, zero bundler bloat |
-| **Styles** | Custom CSS3 | Modern variables, custom neon box-shadows, responsive CSS Grid |
+| **express** | `^4.19.2` | Minimalist web framework for the API routing |
+| **axios** | `^1.7.2` | Promise-based HTTP client to ping target domains |
+| **cors** | `^2.8.5` | Express middleware to enable Cross-Origin Resource Sharing |
 
 ---
 
-## 🚀 Speedrun Deployment
+## 🛠️ Step-by-Step Installation
 
-Get up and running in under 60 seconds.
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) (v16.x or higher) installed on your local machine or server.
 
-### 1. Clone & Navigate
+### 2. Clone & Navigate
 ```bash
 git clone [https://github.com/yourusername/pulseneon.git](https://github.com/yourusername/pulseneon.git)
 cd pulseneon
+```
+
+### 3. Launch the Application
+```bash
+npm start
+```
+
+### 4. Open browser and navigate to 
+```bash
+localhost:3000
+```
+
+### 5. Enjoy
+
